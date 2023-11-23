@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('../fonts/Comfortaa-Bold.ttf');
+  src: url('../fonts/Comfortaa-Bold.ttf') format('embedded-opentype'),
+  url('../fonts/Comfortaa-Bold.woff') format('woff'),
+  url('../fonts/Comfortaa-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  }

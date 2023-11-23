@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700&display=swap');
+body {
+  margin: 0 auto;
+  max-width: 100vw;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  padding: 10px 40px 10px 60px;
+  background-color: #D9D9D9;
+}
+.header__logo {
+  width: 230px;
+  height: 230px;
+  /* animation:turning 6s infinite; */
+}
+.header-navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 34px;
+  padding: 30px;
+  /* border: 2px solid rgb(219, 178, 124);
+  border-radius: 5px; */
+}
+.header-navigation__link {
+  text-decoration: none;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  font-style: normal;
+  color: black;
+  text-transform: uppercase;
+}
+.header-navigation__link:hover {
+  color: rgb(195, 137, 61);
+}
+
+.separator{
+  /* position: absolute;
+  z-index: 2; */
+  border-bottom: 2px solid rgb(104, 98, 90);
+}
+
+.tariff {
+  padding: 50px 100px;
+  background-color: #0e0e0e;
+
+}
+.tariff__title, .services-title, .about-title, .contact-title {
+  text-align: center;
+  margin-bottom: 100px;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  font-style: normal;
+  color: #a9a995;
+  text-transform: uppercase;
+  cursor: pointer;
+  /* animation:turning 5s infinite; */
+}
+.tariff__title:hover, .about-title:hover, .contact-title:hover {
+  color: rgb(195, 137, 61);
+}
+.tariff-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 61px 35px 32px 35px;
+  width: 310px;
+  height: 624px;
+  align-items: center;
+  border: 4px solid #4f4d4d;
+}
+.card:hover {
+  transform: scale(1.1);
+  border: 4px solid rgb(195, 137, 61);
+}
+.card__title {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  color: #a9a995;
+  text-transform: uppercase;
+  animation:turning 5s infinite;
+}
+.card__list {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  color: #f4f0f0;
+  list-style:disc;
+}
+
+.card__list-item {
+  margin-bottom: 10px; 
+}
+
+.services, .about {
+  padding: 50px 200px;
+  background-color: #D9D9D9;
+}
+.services-title, .about-title {
+  margin-bottom: 35px;
+  color: #080808;
+}
+.services-title:hover {
+  color: rgb(195, 137, 61);
+}
+
+.services-subtitle {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  font-style: normal;
+  color: #4f4d4d;
+}
+
+.services_block {
+  padding: 200px;
+  border: 4px solid #1e1c1c;
+}
+
+.services__one:hover, .services__two:hover, .services__three:hover, .services__four:hover {
+  transform: scale(1.2);
+  /* border: 4px solid rgb(195, 137, 61); */
+}
+
+.services__description, .about-description {
+  margin-bottom: 20px;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(195, 137, 61);
+}
+.services__list {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  color: #222020;
+  margin-bottom: 20px;
+}
+
+.about {
+  background-color: #0e0e0e;
+}
+.about-title  {
+  color: #ffff;
+}
+.about-description {
+  color: #a39d9d;
+}
+
+.contacts {
+  padding: 50px 100px;
+  background-color: #D9D9D9;
+}
+
+.contact-title  {
+  color: #080808;
+}
+.contacts__contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.contacts-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color:#4f4d4d ;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+}
+.contacts-link:hover {
+  color: rgb(195, 137, 61);
+}
+
+.telegram {
+  width: 48px;
+  height: 48px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes turning {
+
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+}
